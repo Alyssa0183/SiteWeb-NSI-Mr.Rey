@@ -6,12 +6,17 @@
     background:rgb(80, 148, 238);
 }
 
+#h2muse { /*Modifier le H2 de la page muse */
+    color:beige;
+    font-size: 20px;
+}
+
 #pagejpop{ /*Body de page jpop */
     background:rgb(248, 176, 103);
 }
 
 #pagekpop{ /*Body de page kpop */
-    background:grey;
+    background:black;
 }
 
 #pagepopanglaise{ /*Body de page pop anglaise */
@@ -73,6 +78,29 @@ table { /*Modifie mes image via la balise table de mon html */
     height:45vh;
 }
 
-td { /*Modifie mes image via la balise td de la balise table de mon html */
+.tdIndex { /*Modifie mes image via la balise td de la balise table de mon html */
     padding:30px;
+}
+
+figure { /*Pour les textes en dessous des images */
+    text-align: center;
+}
+
+figcaption { /*Pour les textes en dessous des images */
+    color:beige;
+    font-size:16px;
+    margin-top:5px;
+}
+
+.figIndex { /*Pour les textes en dessous des images de la page index */
+    color:brown;
+    font-size:16px;
+    margin-top:5px;
+}
+
+.video-container { /*Pour la video de la page muse */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
 }

@@ -5,19 +5,66 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Métal & Rock</title>
+  <link rel="icon" type="img/x-icon" href="./img/logo.png"/>
+  <title>Mon SpotifyWrap</title>
 </head>
 <body id="pagemuse">
 <header>
 <h1 class="titre">Métal & Rock</h1>
 </header>
-  <h2 class="titre">ily</h2>
+  <h2 class="titre" id="h2muse">Le metal (ou heavy metal, parfois retranscrit heavy métal en français) est un genre musical dérivé du rock apparu au Royaume-Uni et aux 
+    États-Unis à la fin des années 1960. Dans un sens large et généralisé, le metal désigne toutes les musiques qui descendent du heavy metal traditionnel et du hard rock.</h2>
 <table>
   <tr> 
    <div class="images">
-    <td><a href="index.html"><img src="img/muse.jpg" alt="Rock/Métal" id="pagemuseimg"></a></td>
+    <td>
+        <figure>
+            <a href="index.html">
+                <img src="./img/muse.jpg" alt="Rock/Métal" class="img" id="pagemuseimg">
+            </a>
+            <figcaption>Muse - Starlight</figcaption>
+        </figure>
+    </td>
+    <td>
+        <figure>
+            <a href="index.html">
+                <img src="./img/southarcade.jpg" class="img" >
+            </a>
+            <figcaption>South Arcade - How 2 Get Away With Murder</figcaption>
+        </figure>
+    </td>
+    <td>
+        <figure>
+            <a href="index.html">
+                <img src="./img/piercetheveil.jpg" class="img">
+            </a>
+            <figcaption>Pierce The Veil - Hell Above</figcaption>
+        </figure>
+    </td>
+    <td>
+        <figure>
+            <a href="index.html"><img src="./img/cigaro.jpg" class="img">
+            </a>
+            <figcaption>SOAD - Cigaro</figcaption>
+        </figure>
+    </td>
+    <td>
+        <figure>
+            <a href="index.html">
+                <img src="./img/linkinpark.jpg"class="img">
+            </a>
+            <figcaption>Linkin Park - In The End</figcaption>
+        </figure>
+    </td>
     </div>
   </tr>
 </table>
+<div class="video-container">
+    <video controls autoplay loop muted>
+        <source src="muse.mp4" type="video/mp4">
+    </video>
+</div>
+
 </body>
 </html>
+<!--Balise figure/figcaption servant tout juste a mettre du texte en dessous le l'img-->
