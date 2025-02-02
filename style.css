@@ -16,7 +16,7 @@
 }
 
 #pagekpop{ /*Body de page kpop */
-    background:black;
+    background:rgba(54, 54, 54, 0.938);
 }
 
 #pagepopanglaise{ /*Body de page pop anglaise */
@@ -45,6 +45,18 @@
     margin:center;
 }
 
+#h2kpop {
+    color: beige;
+}
+
+#h2jpop {
+    color: beige;
+}
+
+#h2popanglaise {
+    color: beige;
+}
+
 .img { /*Agrandir/centrer les images contennant la balise class="img" de chaque image */
     width:250px;
     margin:center;
@@ -68,6 +80,13 @@ h2 { /*Modifie toutes les balises H2 de toutes mes pages */
     text-align: center;
     color:brown;
     font-family:Courier, monospace;
+}
+
+p { /*Modifie toutes les balises p de la page index */
+    text-align: center;
+    color:brown;
+    font-size:25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 table { /*Modifie mes image via la balise table de mon html */
